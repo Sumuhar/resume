@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Journal</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header class="header" data-scroll="1">
+
+
+			<div class="header__container">
+
+
+				<a href="/index.html" class="header__logo _icon-home" data-tippy-content="На главную"></a>
+				<div class="header__menu menu">
+
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li data-tippy-content="Связаться со мной в телеграм" class="menu__item"><a target="_blank" href="https://t.me/Sumuhar" class="menu__link _icon-telegram"></a></li>
+							<li data-tippy-content="Мои проекты" class="menu__item"><a href="/timeline.html" class="menu__link _icon-timeline"></a></li>
+							<li data-tippy-content="Как создавался сайт" class="menu__item"><a href="/journal.html" class="menu__link _icon-project"></a></li>
+							<li data-tippy-content="Сменить тему" class="menu__item">
+								<div class="menu__link  theme-changer daynight"></div>
+							</li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+
+			</div>
+		</header>
+		<div class="for-decor">
+			<span class="decor"></span>
+		</div>
+		<main class="page">
+
+			<section class="journal">
+
+				<div class="journal__container">
+					<div class="journal__line line-left"></div>
+					<div class="journal__line"></div>
+					<div class="titles anim">
+						<h1 class="titles__title">Как создавался сайт</h1>
+						<p class="titles__descr">Поэтапное описание создания сайта-резюме.</p>
+						<span class="titles__line"></span>
+					</div>
+
+
+					<div class="journal__content">
+
+						<div class="journal__item item-j anim">
+							<aside class="item-j__date date">11.01.2023</aside>
+							<h2 class="item-j__title">Приглашение пройти стажировку</h2>
+							<p class="item-j__text">Отклик на вакансию и предложение выполнить тестовое задание. Начало создания сайта-резюме. Дедлайн был обозначен до 1 февраля. Было решено уделять по 1-2 часа в день на создание данного сайта.</p>
+						</div>
+
+						<div class="journal__item item-j anim">
+							<aside class="item-j__date date">12.01.2023</aside>
+							<h2 class="item-j__title">Создание дизайна у себя в голове и начало работы.</h2>
+							<p class="item-j__text">Определился с примерным дизайном. Сверстан header. В результате остановился на выборе "липкого" хедера с blur-эффектом при скролле страницы. Также по ТЗ реализован бургер, который появляется при 480px.
+								
+							</p>
+						</div>
+
+						<div class="journal__item item-j anim">
+							<aside class="item-j__date date">13.01.2023</aside>
+							<h2 class="item-j__title">Фон. Шрифты. Цвет. Иконки для header.</h2>
+							<p class="item-j__text">Определился с шрифтами, цветом фона. Добавил фоновое изображение, которое также выступает как preloader для сайта. Самое сложно было выбрать шрифты и цветовую схему.
+								Так как я не ищу легких путей было решено добавить смену цветовой темы на день/ночь. При смене темы меняется цвет фона, шрифтов, иконок.
+								Добавлен иконочный шрифт для реализации hover-эффектов при наведении.
+							</p>
+						</div>
+
+						<div class="journal__item item-j anim">
+							<aside class="item-j__date date">14.01.2022</aside>
+							<h2 class="item-j__title">Контент. Анимация.</h2>
+							<p class="item-j__text">Я решил не описывать все что я умею, а реализовать все свои скилы в данном сайте.
+								Добавлен скрипт для реализации плавного появления контента при скролле.</p>
+						</div>
+
+						<div class="journal__item item-j anim">
+							<aside class="item-j__date date">14.01.2022</aside>
+							<h2 class="item-j__title">Контент. Анимация.</h2>
+							<p class="item-j__text">Я решил не описывать все что я умею, а реализовать все свои скилы в данном сайте.
+								Добавлен скрипт для реализации плавного появления контента при скролле.</p>
+						</div>
+
+						<div class="journal__item item-j anim">
+							<aside class="item-j__date date">15.01.2022</aside>
+							<h2 class="item-j__title">Дополнительные страницы.</h2>
+							<p class="item-j__text">Создал 2 дополнительные страницы. Одна из них, та которую вы сейчас смотрите. Вторая с моими проектами. Соответственно, с этого момента была создана хронология.</p>
+						</div>
+
+						<div class="journal__item item-j anim">
+							<aside class="item-j__date date">16.01.2022</aside>
+							<h2 class="item-j__title">Понедельник день тяжелый.</h2>
+							<p class="item-j__text">Добавлен слайдер на главную страницу на основе <a href="https://swiperjs.com/">SwiperJS</a>, стилизация скролла. Добавлены подсказки при наведении на иконки <a href="https://github.com/atomiks/tippyjs">Tippy</a>.
+							Добавлен <a href="https://github.com/verlok/vanilla-lazyload">vanilla-lazyload</a> для картинок.
+							<p>
+							<p class="item-j__text">Деплой верстки на <a href="#">Github Pages</a></p>
+						</div>
+						
+
+
+
+
+
+
+
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="titles anim">
+					<span class="titles__line"></span>
+					<p class="titles__descr">
+
+						<span>Сайт-резюме разработан специально для JS From Zero To Hero 2023</span>
+
+					</p>
+
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://unpkg.com/@popperjs/core@2?_v=20230115155045"></script>
+	<script src="https://unpkg.com/tippy.js@6?_v=20230115155045"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230115155045"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js?_v=20230115155045"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
